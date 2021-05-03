@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #28223f;
+}
+.card-container{
+    color: #b9b9b9;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.card{
+    width: 300px;
+    margin: 0 auto;
+    background-color: #231e39;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 5px 10px 5px #231e39;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.pro{
+    background-color: #febb0b;
+    color: #1f1a36;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    float: left;
+    font-weight: 800;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.card-image{
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #03bfcb;
+    border-radius: 120px;
+    width: 120px;
+    height: 120px;
+}
+
+.card-text h4,h3{
+    margin: 0;
+}
+.card-text h3{
+    text-transform: capitalize;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.card-text h4{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+}
+
+.card-title,.card-link{
+    margin: 16px;
+}
+
+.card-link a{
+    text-decoration: none;
+    border: 1.5px solid #03bfcb;
+    border-radius: 5px;
+    color: #03bfcb;
+    padding: 5px 20px;
+    transition: .3s;
+}
+
+.card-link :hover {
+    color: #231e39;
+    background-color: #03bfcb;
+}
+
+.card-footer{
+    padding: 20px ;
+    background-color: #1f1a36;
+}
+.card-footer h4{
+    text-align: left;
+    padding:0 8px;
+    margin: 0;
+}
+.card-item{
+    border:1px solid #b9b9b9;
+    padding:8px;
+    margin: 5px;
+}
+.card-items{
+    display: flex;
+    color: #b9b9b9;
+    flex-flow: row wrap;
+    font-size: 11px;
+    margin: 0;
+}
